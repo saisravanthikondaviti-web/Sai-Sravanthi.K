@@ -1,1 +1,80 @@
 https://saisravanthikondaviti-web.github.io/Sai-Sravanthi.K/
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <style>
+        body {
+            font-family: Arial,sans-serif;
+            padding:20px
+        }
+        .form-container {
+            max-width: 450px;
+            margin: auto;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .form-container h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .form-title {
+            text-align:center;
+            margin-bottom: 20px;
+        }
+        .form-group {
+            margin-bottom: 15px;
+            
+        } 
+        label {
+            display: block;
+            margin-bottom: 6px;
+            font-weight: bold;
+        }
+        input[type="text"], input[type="email"], input[type="date"],
+         select {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+         }
+        button {
+            background-color: #28a745;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            width: 100%;    
+        }
+    </style>
+</head>
+<body>
+    <div class="form-title">
+        <h2>Login Form</h2>
+    </div>
+    
+    <div class="form-container">
+        <form>
+            <div class="form-group">
+                <label>E-mail</label>
+            <input type="email" placeholder="xyz@gmail.com">
+            </div>
+            <br>
+            <div class="form-group">
+                <label>Password</label>
+            <input type="text" placeholder="xxxxxxxx">
+            </div>
+            <br>
+            <button>Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>
